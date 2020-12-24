@@ -1,7 +1,7 @@
 .planet {
   padding: 48px;
   border-radius: 20px;
-  background: antiquewhite;
+  background-color: #a499ae;
   /* text-align: center; */
   width: 50%;
   justify-content: center;
@@ -26,4 +26,16 @@
   margin-right: auto;
   height: 10px;
   margin-top: 12px;
+}
+
+.favourites {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4%;
+}
+
+.list {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4%;
 }

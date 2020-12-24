@@ -56,7 +56,7 @@ function App() {
         <div className="row">
           <div className="col-md-6">
             <div className="row">
-              <div>Planet List</div>
+              <div className="list">Planet List</div>
             </div>
             <div>
               {planets.map((planet, index) => {
@@ -74,7 +74,7 @@ function App() {
           </div>
           <div className="col-md-6">
             <div className="row">
-              <div>Favourites</div>
+              <div className="favourites">Favourites</div>
             </div>
             <div className="fav-planets-parent">
               {favouritePlanet.map((planet, index) => {
